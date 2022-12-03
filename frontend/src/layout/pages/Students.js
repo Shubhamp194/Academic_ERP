@@ -39,7 +39,7 @@ export default function Student() {
         {/* {students.map((domain) => (
           <div key={domain.domain_id}>
             {course.course_name} */}
-            <table className="table table-danger shadow table-hover table-striped">
+            <table className="table table-info shadow table-hover table-striped">
               <thead className="table-dark">
                 <tr>
                   <th></th>

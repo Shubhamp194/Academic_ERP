@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -17,6 +18,7 @@ export default function Navbar() {
     aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
     </button>
+    {/* <Link className='btn btn-outline-light mx-2' to='/'> Logout</Link> */}
     {/* <button className="btn btn-outline-light">Add domain</button> */}
   </div>
 </nav>

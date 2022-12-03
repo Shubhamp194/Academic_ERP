@@ -20,11 +20,13 @@ export default function Home() {
   return (
     <div className="container">
       <div className="py-4">
-        <h1>List of Domains</h1>
+        <h1>Domains</h1>
         {/* <div> */}
-        <Link  className='btn btn-outline-primary mx-2' to='/addDomain'>Add Domain</Link>
+        <Link  className='btn btn-outline-success mx-2' to='/addDomain'>Add Domain</Link>
+        <Link className='btn btn-outline-danger mx-2' to='/'> Logout</Link>
         {/* </div> */}
-        <table className="table table-secondary shadow table-hover table-striped">
+        
+        <table className="table table-warning shadow table-hover table-striped">
           <thead className="table-dark">
             <tr>
               <th scope="col">Domain_ID</th>
@@ -53,7 +55,7 @@ export default function Home() {
                     View Students
                   </Link>
                   <Link
-                    className="btn btn-primary mx-2"
+                    className="btn btn-warning mx-2"
                     to={`/editDomain/${domain.domain_id}`}
                   >
                     Edit Domain

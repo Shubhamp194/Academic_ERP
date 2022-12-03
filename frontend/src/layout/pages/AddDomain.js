@@ -86,7 +86,7 @@ export default function AddDomain() {
                             onChange={(e)=>onInputChange(e)}
                         />
                     </div>
-                    <button type='submit'onClick={onSubmit} className='btn btn-outline-primary'>Submit</button>
+                    <button type='submit'onClick={onSubmit} className='btn btn-outline-success'>Submit</button>
                     <Link  className='btn btn-outline-danger mx-2' to='/home'>Cancel</Link>
                 </form>
             </div>

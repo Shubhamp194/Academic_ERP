@@ -64,8 +64,8 @@ export default function Login() {
                             onChange={(e)=>onInputChange(e)}
                         />
                     </div>
-                    <button type='submit'  className='btn btn-outline-primary'>Submit</button>
-                    <Link className='btn btn-outline-danger mx-2' to="/">Cancel</Link>
+                    <button type='submit'  className='btn btn-outline-success'>Submit</button>
+                    {/* <Link className='btn btn-outline-danger mx-2' to="/">Cancel</Link> */}
                     </form>
                 </div>
 

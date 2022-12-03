@@ -32,8 +32,8 @@ export default function EditDomain() {
     }
 
     const loadDomain = async () =>{
-        //const result= await axios.get(`http://localhost:7070/api/domain/get/${id}`)
-        //setDomain(domain.data)
+        const result= await axios.get(`http://localhost:7070/api/domain/get/${id}`)
+        setDomain(result.data)
     }
 
   return (
